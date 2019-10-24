@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright 2019 XBRL US Inc.
+
+-->
+
+<!-- Schema for numeric types -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns:link="http://www.xbrl.org/2003/linkbase"  xmlns:sap-types="http://xbrl-us/sap-types/2020-01-01"  xmlns:xbrli="http://www.xbrl.org/2003/instance"  xmlns:xlink="http://www.w3.org/1999/xlink"  attributeFormDefault="unqualified" blockDefault="" elementFormDefault="qualified" finalDefault=""  targetNamespace="http://xbrl.us/sap-types/2020-01-01">
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="deMinimusCostRateItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Yes"/>
+        <xs:enumeration value="No"/>
+        <xs:enumeration value="Both"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="auditReportItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Unmodified opinion (U)"/>
+        <xs:enumeration value="Qualified opinion (Q)"/>
+        <xs:enumeration value="Adverse opinion (A)"/>
+        <xs:enumeration value="Disclaimer of opinion (D)"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="specialPurposeFrameworkItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Cash basis"/>
+        <xs:enumeration value="Tax basis"/>
+        <xs:enumeration value="Regulatory basis"/>
+        <xs:enumeration value="Contractual basis"/>
+        <xs:enumeration value="Other basis"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="uniformAuditGuidanceItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Single audit"/>
+        <xs:enumeration value="Program-specific audit"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="auditPeriodCoveredItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Annual"/>
+        <xs:enumeration value="Biennial"/>
+        <xs:enumeration value="Other"/>
+      </restriction>
+    </simpleContent>
+ 
+  </complexType>
+  </xs:schema>
