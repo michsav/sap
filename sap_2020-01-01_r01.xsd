@@ -405,8 +405,8 @@
       type="nonnum:domainItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      id="sap_CFDAThreeDigitExtension"
-      name="CFDAThreeDigitExtension"
+      id="sap_CFDANumber"
+      name="CFDANumber"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
@@ -914,6 +914,21 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="sap_FederalProgramNameAxis"
+      name="FederalProgramNameAxis"
+      nillable="true"
+      substitutionGroup="xbrldt:dimensionItem"
+      type="xbrli:stringItemType"
+      xbrldt:typedDomainRef="#sap_FederalProgramNameDomain"
+      xbrli:periodType="duration"/>
+    <xs:element
+      id="sap_FederalProgramNameDomain"
+      name="FederalProgramNameDomain"
+      nillable="true"
+      type="xs:token"
       xbrli:periodType="duration"/>
     <xs:element
       id="sap_FederalProgramTotalAwardsExpended"

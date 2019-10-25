@@ -11,12 +11,12 @@
       xlink:href="sap_all_2020-01-01_r01.xsd#roleType_FindingsAndQuestionedCosts"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
-      xlink:href="sap_all_2020-01-01_r01.xsd#roleType_GeneralInformation"
-      xlink:type="simple"/>
-    <roleRef
       roleURI="http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
       xlink:href="sap_all_2020-01-01_r01.xsd#roleType_ExpendituresFederalAwards"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+      xlink:href="sap_all_2020-01-01_r01.xsd#roleType_GeneralInformation"
       xlink:type="simple"/>
     <presentationLink
       xlink:role="http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
@@ -716,11 +716,21 @@
           xlink:to="sap_MiscellaneousMember"
           xlink:type="arc"/>
         <loc
+          xlink:href="sap_2020-01-01_r01.xsd#sap_FederalProgramNameAxis"
+          xlink:label="sap_FederalProgramNameAxis"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="sap_ScheduleOfExpendituresOfFederalAwardsTable"
+          xlink:to="sap_FederalProgramNameAxis"
+          xlink:type="arc"/>
+        <loc
           xlink:href="sap_2020-01-01_r01.xsd#sap_ClusterAxis"
           xlink:label="sap_ClusterAxis"
           xlink:type="locator"/>
         <presentationArc
-          order="4"
+          order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="sap_ScheduleOfExpendituresOfFederalAwardsTable"
           xlink:to="sap_ClusterAxis"
@@ -1110,20 +1120,20 @@
           xlink:label="sap_ScheduleOfExpendituresOfFederalAwardsLineItems"
           xlink:type="locator"/>
         <presentationArc
-          order="5"
+          order="6"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="sap_ScheduleOfExpendituresOfFederalAwardsTable"
           xlink:to="sap_ScheduleOfExpendituresOfFederalAwardsLineItems"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-01-01_r01.xsd#sap_CFDAThreeDigitExtension"
-          xlink:label="sap_CFDAThreeDigitExtension"
+          xlink:href="sap_2020-01-01_r01.xsd#sap_CFDANumber"
+          xlink:label="sap_CFDANumber"
           xlink:type="locator"/>
         <presentationArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="sap_ScheduleOfExpendituresOfFederalAwardsLineItems"
-          xlink:to="sap_CFDAThreeDigitExtension"
+          xlink:to="sap_CFDANumber"
           xlink:type="arc"/>
         <loc
           xlink:href="sap_2020-01-01_r01.xsd#sap_AdditionalAwardIdentification"
@@ -2034,11 +2044,21 @@
           xlink:to="sap_MiscellaneousMember"
           xlink:type="arc"/>
         <loc
+          xlink:href="sap_2020-01-01_r01.xsd#sap_FederalProgramNameAxis"
+          xlink:label="sap_FederalProgramNameAxis"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="sap_ScheduleOfFindingsAndQuestionedCostsTable"
+          xlink:to="sap_FederalProgramNameAxis"
+          xlink:type="arc"/>
+        <loc
           xlink:href="sap_2020-01-01_r01.xsd#sap_ClusterAxis"
           xlink:label="sap_ClusterAxis"
           xlink:type="locator"/>
         <presentationArc
-          order="2"
+          order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="sap_ScheduleOfFindingsAndQuestionedCostsTable"
           xlink:to="sap_ClusterAxis"
@@ -2428,7 +2448,7 @@
           xlink:label="sap_AuditFindingsReferenceNumberAxis"
           xlink:type="locator"/>
         <presentationArc
-          order="3"
+          order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="sap_ScheduleOfFindingsAndQuestionedCostsTable"
           xlink:to="sap_AuditFindingsReferenceNumberAxis"
@@ -2438,7 +2458,7 @@
           xlink:label="sap_ScheduleofFindingsandQuestionedCostsLineItems"
           xlink:type="locator"/>
         <presentationArc
-          order="4"
+          order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="sap_ScheduleOfFindingsAndQuestionedCostsTable"
           xlink:to="sap_ScheduleofFindingsandQuestionedCostsLineItems"

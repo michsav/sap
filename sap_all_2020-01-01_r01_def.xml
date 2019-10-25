@@ -8,36 +8,36 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
     <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
-      xlink:href="sap_all_2020-01-01_r01.xsd#roleType_GeneralInformation"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
-      xlink:href="sap_all_2020-01-01_r01.xsd#roleType_ExpendituresFederalAwards"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
-      xlink:href="sap_all_2020-01-01_r01.xsd#roleType_FindingsAndQuestionedCosts"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
-      xlink:type="simple"/>
-    <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+      xlink:href="sap_all_2020-01-01_r01.xsd#roleType_ExpendituresFederalAwards"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+      xlink:href="sap_all_2020-01-01_r01.xsd#roleType_FindingsAndQuestionedCosts"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+      xlink:href="sap_all_2020-01-01_r01.xsd#roleType_GeneralInformation"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
       xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
@@ -749,11 +749,21 @@
           xlink:to="sap_MiscellaneousMember"
           xlink:type="arc"/>
         <loc
+          xlink:href="sap_2020-01-01_r01.xsd#sap_FederalProgramNameAxis"
+          xlink:label="sap_FederalProgramNameAxis"
+          xlink:type="locator"/>
+        <definitionArc
+          order="4"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
+          xlink:from="sap_ScheduleOfExpendituresOfFederalAwardsTable"
+          xlink:to="sap_FederalProgramNameAxis"
+          xlink:type="arc"/>
+        <loc
           xlink:href="sap_2020-01-01_r01.xsd#sap_ClusterAxis"
           xlink:label="sap_ClusterAxis"
           xlink:type="locator"/>
         <definitionArc
-          order="4"
+          order="5"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
           xlink:from="sap_ScheduleOfExpendituresOfFederalAwardsTable"
           xlink:to="sap_ClusterAxis"
@@ -1139,14 +1149,14 @@
           xlink:to="sap_WIOAClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-01-01_r01.xsd#sap_CFDAThreeDigitExtension"
-          xlink:label="sap_CFDAThreeDigitExtension"
+          xlink:href="sap_2020-01-01_r01.xsd#sap_CFDANumber"
+          xlink:label="sap_CFDANumber"
           xlink:type="locator"/>
         <definitionArc
           order="2"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="sap_ScheduleOfExpendituresOfFederalAwardsLineItems"
-          xlink:to="sap_CFDAThreeDigitExtension"
+          xlink:to="sap_CFDANumber"
           xlink:type="arc"/>
         <loc
           xlink:href="sap_2020-01-01_r01.xsd#sap_AdditionalAwardIdentification"
@@ -2069,11 +2079,21 @@
           xlink:to="sap_MiscellaneousMember"
           xlink:type="arc"/>
         <loc
+          xlink:href="sap_2020-01-01_r01.xsd#sap_FederalProgramNameAxis"
+          xlink:label="sap_FederalProgramNameAxis"
+          xlink:type="locator"/>
+        <definitionArc
+          order="2"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
+          xlink:from="sap_ScheduleOfFindingsAndQuestionedCostsTable"
+          xlink:to="sap_FederalProgramNameAxis"
+          xlink:type="arc"/>
+        <loc
           xlink:href="sap_2020-01-01_r01.xsd#sap_ClusterAxis"
           xlink:label="sap_ClusterAxis"
           xlink:type="locator"/>
         <definitionArc
-          order="2"
+          order="3"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
           xlink:from="sap_ScheduleOfFindingsAndQuestionedCostsTable"
           xlink:to="sap_ClusterAxis"
@@ -2463,7 +2483,7 @@
           xlink:label="sap_AuditFindingsReferenceNumberAxis"
           xlink:type="locator"/>
         <definitionArc
-          order="3"
+          order="4"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
           xlink:from="sap_ScheduleOfFindingsAndQuestionedCostsTable"
           xlink:to="sap_AuditFindingsReferenceNumberAxis"
