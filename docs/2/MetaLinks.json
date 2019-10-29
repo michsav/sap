@@ -1,0 +1,4485 @@
+{
+ "instance": {
+  "Sample-Company-20180630-Annual-Accounts.htm": {
+   "axisCustom": 0,
+   "axisStandard": 3,
+   "contextCount": 15,
+   "dts": {
+    "definitionLink": {
+     "remote": [
+      "https://raw.githubusercontent.com/michsav/sap/master/sap_all_2020-01-01_r01_def.xml"
+     ]
+    },
+    "inline": {
+     "local": [
+      "Sample-Company-20180630-Annual-Accounts.htm"
+     ]
+    },
+    "labelLink": {
+     "remote": [
+      "https://raw.githubusercontent.com/michsav/sap/master/sap_2020-01-01_r01_lab.xml"
+     ]
+    },
+    "linkbase": {
+     "remote": [
+      "https://raw.githubusercontent.com/michsav/sap/master/sap_all_2020-01-01_r01_cal.xml"
+     ]
+    },
+    "presentationLink": {
+     "remote": [
+      "https://raw.githubusercontent.com/michsav/sap/master/sap_all_2020-01-01_r01_pre.xml"
+     ]
+    },
+    "schema": {
+     "remote": [
+      "https://raw.githubusercontent.com/michsav/sap/master/sap_all_2020-01-01_r01.xsd",
+      "http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd",
+      "http://www.xbrl.org/2003/xl-2003-12-31.xsd",
+      "http://www.xbrl.org/2003/xlink-2003-12-31.xsd",
+      "https://raw.githubusercontent.com/michsav/sap/master/sap_2020-01-01_r01.xsd",
+      "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
+      "http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd",
+      "http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd",
+      "http://www.xbrl.org/2005/xbrldt-2005.xsd",
+      "https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd",
+      "https://raw.githubusercontent.com/michsav/sap/master/sap-types-2020-01-01.xsd"
+     ]
+    }
+   },
+   "elementCount": 235,
+   "entityCount": 1,
+   "hidden": {
+    "total": 0
+   },
+   "keyCustom": 0,
+   "keyStandard": 4,
+   "memberCustom": 0,
+   "memberStandard": 5,
+   "report": {
+    "R1": {
+     "firstAnchor": {
+      "ancestors": [
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Sample-Company-20180630-Annual-Accounts.htm",
+      "contextRef": "D20180630_DepartmentOfEducationMember_StudentFinancialAssistanceClusterMember",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "sap:AmountExpended",
+      "reportCount": 1,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "true",
+     "longName": "100 - Schedule Of Expenditures of Federal Awards",
+     "role": "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Sample-Company-20180630-Annual-Accounts.htm",
+      "contextRef": "D20180630_DepartmentOfEducationMember_StudentFinancialAssistanceClusterMember_FederalProgramNameDomain_FederalPellGrantProgram",
+      "decimals": null,
+      "lang": null,
+      "name": "sap:CFDANumber",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R2": {
+     "firstAnchor": {
+      "ancestors": [
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Sample-Company-20180630-Annual-Accounts.htm",
+      "contextRef": "D20180630_DepartmentOfEducationMember_StudentFinancialAssistanceClusterMember",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "sap:AmountExpended",
+      "reportCount": 1,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "200 - Schedule of Findings and Questioned Costs",
+     "role": "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Sample-Company-20180630-Annual-Accounts.htm",
+      "contextRef": "D20180630_DepartmentOfHealthAndHumanServicesMember_ResearchAndDevelopmentClusterMember_FederalProgramNameDomain_OralDiseasesAndDisordersResearchPassThroughStanfordUniversity",
+      "decimals": "0",
+      "lang": null,
+      "name": "sap:AmountExpended",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     }
+    },
+    "R9999": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Sample-Company-20180630-Annual-Accounts.htm",
+      "contextRef": "D20180630_StudentFinancialAssistanceClusterMember_FederalProgramNameDomain_FederalDirectStudentLoans",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "sap:CFDANumber",
+      "reportCount": 1,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "Uncategorized Items - Sample-Company-20180630-Annual-Accounts.htm",
+     "role": "http://xbrl.sec.gov/role/uncategorizedFacts",
+     "shortName": "Uncategorized Items - Sample-Company-20180630-Annual-Accounts.htm",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    }
+   },
+   "segmentCount": 5,
+   "tag": {
+    "dei_EntityAddressAddressLine1": {
+     "auth_ref": [],
+     "localname": "EntityAddressAddressLine1",
+     "nsuri": "http://xbrl.sec.gov/dei/2019-01-31",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "normalizedStringItemType"
+    },
+    "dei_EntityAddressCityOrTown": {
+     "auth_ref": [],
+     "localname": "EntityAddressCityOrTown",
+     "nsuri": "http://xbrl.sec.gov/dei/2019-01-31",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "normalizedStringItemType"
+    },
+    "dei_EntityAddressPostalZipCode": {
+     "auth_ref": [],
+     "localname": "EntityAddressPostalZipCode",
+     "nsuri": "http://xbrl.sec.gov/dei/2019-01-31",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "normalizedStringItemType"
+    },
+    "dei_EntityAddressStateOrProvince": {
+     "auth_ref": [],
+     "localname": "EntityAddressStateOrProvince",
+     "nsuri": "http://xbrl.sec.gov/dei/2019-01-31",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stateOrProvinceItemType"
+    },
+    "dei_EntityDataUniversalNumberingSystemNumber": {
+     "auth_ref": [],
+     "localname": "EntityDataUniversalNumberingSystemNumber",
+     "nsuri": "http://xbrl.sec.gov/dei/2019-01-31",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "nineDigitItemType"
+    },
+    "dei_EntityTaxIdentificationNumber": {
+     "auth_ref": [],
+     "localname": "EntityTaxIdentificationNumber",
+     "nsuri": "http://xbrl.sec.gov/dei/2019-01-31",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "employerIdItemType"
+    },
+    "sap_AdditionalAwardIdentification": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information that can be used to identify the award, which is not a CFDA number, for example, program year, contract number, state issued numbers, etc. If the CFDA Three-Digit Extension is unknown, this is a required field.",
+        "label": "Additional Award Identification",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AdditionalAwardIdentification",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AdditionalClusterInformationAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the program cluster when it is a state cluster or is not already listed.",
+        "label": "Additional Cluster Information [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AdditionalClusterInformationAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AdditionalNotes": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Additional notes provided about the Schedule of Expenditures of Federal Awards (SEFA), as needed.",
+        "label": "Additional Notes",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AdditionalNotes",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AfricanDevelopmentFoundationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "African Development Foundation (01) [Member]",
+        "label": "African Development Foundation (01) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AfricanDevelopmentFoundationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_AgingClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Aging Cluster.",
+        "label": "Aging Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AgingClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_AmountExpended": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Amount of expenditures for the Federal award which may be direct funds or may be split between direct and indirect funds.",
+        "label": "Amount Expended",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AmountExpended",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "sap_AmountExpendedAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the amount of expenditures for Federal awards which may be direct or indirect.",
+        "label": "Amount Expended [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AmountExpendedAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AmountExpendedDirect": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Amount of expenditures for the Federal award that are considered direct funds. This is to be used only if the amount of expenditures is split between both direct and indirect. If the expenditures are only direct funds, only use element AmountExpended.",
+        "label": "Amount Expended Direct",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AmountExpendedDirect",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "sap_AmountExpendedInDirect": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Amount of expenditures for the Federal award that are considered indirect funds, obtained as a pass-through. This is to be used only if the amount of expenditures is split between both direct and indirect. If the expenditures are only direct funds, only use element AmountExpended.",
+        "label": "Amount Expended Indirect",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AmountExpendedInDirect",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "sap_AppalachianRegionalCommissionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Appalachian Regional Commission (23)",
+        "label": "Appalachian Regional Commission (23) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AppalachianRegionalCommissionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_ArchitecturalAndTransportationBarriersComplianceBoardMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Architectural &amp; Transportation Barriers Compliance Board (88)",
+        "label": "Architectural &amp; Transportation Barriers Compliance Board (88) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ArchitecturalAndTransportationBarriersComplianceBoardMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_AuditCorrectiveActionPlan": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Text of the corrective action plan.",
+        "label": "Audit Corrective Action Plan",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditCorrectiveActionPlan",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditFindingText": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Text of the audit finding that directly corresponds to the audit finding reference number. Includes full, detailed text including the header (such as title, Federal program name, and award identification information), of the audit finding from the Schedule of Findings and Questioned Costs. If there are charts or tables within the text, enter \"See Schedule of Findings and Questioned Costs for chart/table\" in place of the chart or table. All other text must be included.",
+        "label": "Audit Finding Text",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditFindingText",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditFindingTextAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the text of the audit finding.",
+        "label": "Audit Finding Text [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditFindingTextAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditFindingsReferenceNumberAxis": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Used to identify the audit finding. The reference number is the four-digit year of the audit, a hyphen and a three-digit number. For example, 2019-001, or 2019-002.",
+        "label": "Audit Findings Reference Number [Axis]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditFindingsReferenceNumberAxis",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditParticipantAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the audit participants.",
+        "label": "Audit Participant [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditParticipantAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditParticipantInformationLineItems": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents information about audit participants which can be auditors or auditees.",
+        "label": "Audit Participant Information [Line Items]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditParticipantInformationLineItems",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditParticipantInformationTable": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the primary and secondary auditor, and the auditee that is associated with the primary EIN.",
+        "label": "Audit Participant Information [Table]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditParticipantInformationTable",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditPeriodAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the period covered by the audit.",
+        "label": "Audit Period [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditPeriodAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditPeriodCovered": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Report as Annual, Biennial, or Other. Annual audits cover 2 months and biennial audits cover 24 months. If the audit period covered is neither annual nor biennial, report as \"Other\" and indicate the number of months by using the element AuditPeriodCoveredMonths.",
+        "label": "Audit Period Covered",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditPeriodCovered",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "auditPeriodCoveredItemType"
+    },
+    "sap_AuditPeriodCoveredMonths": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Number of months covered in the audit.",
+        "label": "Audit Period Covered, Months",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditPeriodCoveredMonths",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "integerItemType"
+    },
+    "sap_AuditeeAddressCity": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "City of the auditee street address.",
+        "label": "Auditee Address City",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditeeAddressCity",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditeeAddressState": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "State of the auditee street address.",
+        "label": "Auditee Address State",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditeeAddressState",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditeeAddressStreetAddress": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Street address of the auditee.",
+        "label": "Auditee Address Street Address",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditeeAddressStreetAddress",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditeeAddressZipCode": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Zip code of the auditee street address.",
+        "label": "Auditee Address Zip Code",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditeeAddressZipCode",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditeeContactEmail": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Auditee Contact Email.",
+        "label": "Auditee Contact Email",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditeeContactEmail",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditeeContactName": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Auditee Contact Name.",
+        "label": "Auditee Contact Name",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditeeContactName",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditeeContactPhone": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Auditee Contact Phone.",
+        "label": "Auditee Contact Phone",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditeeContactPhone",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditeeContactTitle": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Auditee Contact Title.",
+        "label": "Auditee Contact Title",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditeeContactTitle",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditeeDUNSContinuationList": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "List of all DUNS numbers for all entities covered by the audit. Report a DUNS number if it identifies a component entity (for example, State Agency, sub-entity), of the auditee with Federal awards expended during the fiscal period included in the audit. Do not include separate DUNS numbers for any component entity that did not expend or otherwise administer Federal awards. The order of the DUNS listing is not important.",
+        "label": "Auditee DUNS Continuation List",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditeeDUNSContinuationList",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditeeEINContinuationList": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "List of all Tax Identification numbers (TIN) for all entities covered by the audit. An EIN should be considered covered if this report is intended to satisfy the entity's or component's Single Audit Requirement. Does not include EINs for any component that did not receive, expend or otherwise administer Federal awards. Does not include the primary EIN already included through element EntityTaxIdentificationNumber.",
+        "label": "Auditee EIN Continuation List",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditeeEINContinuationList",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditeeEmployeeIdentificationNumber": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The Tax Identification Number (TIN), also known as an Employer Identification Number (EIN), for the auditee. This is a unique 9-digit value assigned by the IRS.",
+        "label": "Auditee Employee Identification Number",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditeeEmployeeIdentificationNumber",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditeeIdentificationAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about identification numbers for the auditee.",
+        "label": "Auditee Identification [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditeeIdentificationAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditeeUsedDeMinimisCostRate": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditee elected to use the de minimus cost rate. May be reported as Yes, No, or Both.",
+        "label": "Auditee Used De Minimis Cost Rate",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditeeUsedDeMinimisCostRate",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_AuditorAxis": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the primary and secondary auditors associated with the primary EIN. Use this axis for information about the auditor. Use no axis for information about the auditee.",
+        "label": "Auditor [Axis]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditorAxis",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditorOpinionFinancialsAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the auditor's opinion of the financial statements.",
+        "label": "Auditor Opinion Financials [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditorOpinionFinancialsAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_AuditorOpinionFinancialsAdverse": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The results of the auditor's determination of whether the financial statements of the auditee were prepared in accordance with generally accepted accounting principles (GAAP) were \"Adverse opinion\". If they were, report as TRUE; if not, report as FALSE. There may be multiple opinions on various opinion units within the financial statements so the auditor may report multiple opinion types (Unmodified, Adverse, etc.) as TRUE.",
+        "label": "Auditor Opinion Financials Adverse",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditorOpinionFinancialsAdverse",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_AuditorOpinionFinancialsDisclaimer": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The results of the auditor's determination of whether the financial statements of the auditee were prepared in accordance with generally accepted accounting principles (GAAP) were \"Disclaimer of opinion\". If they were, report as TRUE; if not, report as FALSE. There may be multiple opinions on various opinion units within the financial statements so the auditor may report multiple opinion types (Unmodified, Adverse, etc.) as TRUE.",
+        "label": "Auditor Opinion Financials Disclaimer",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditorOpinionFinancialsDisclaimer",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_AuditorOpinionFinancialsNotUSGAAP": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The results of the auditor's determination is that the financial statements were not prepared in accordance with generally accepted accounting principles (GAAP), but were instead prepared in accordance with a special purpose framework as defined in AU-C 800 \"Special Considerations - Audits of Financial Statements Prepared in Accordance with Special Purpose Framework\". If so, select \"Adverse opinion\" as TRUE, and select this concept as TRUE. If not, report this concept as FALSE. There may be multiple opinions on various opinion units within the financial statements so the auditor may report multiple opinion types (Unmodified, Adverse, etc.) as TRUE.",
+        "label": "Auditor Opinion Financials Not US GAAP",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditorOpinionFinancialsNotUSGAAP",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_AuditorOpinionFinancialsQualified": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The results of the auditor's determination of whether the financial statements of the auditee were prepared in accordance with generally accepted accounting principles (GAAP) were \"Qualified opinion\". If they were, report as TRUE; if not, report as FALSE. There may be multiple opinions on various opinion units within the financial statements so the auditor may report multiple opinion types (Unmodified, Adverse, etc.) as TRUE.",
+        "label": "Auditor Opinion Financials Qualified",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditorOpinionFinancialsQualified",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_AuditorOpinionFinancialsUnmodified": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The results of the auditor's determination of whether the financial statements of the auditee were prepared in accordance with generally accepted accounting principles (GAAP) were \"Unmodified opinion\". If they were, report as TRUE; if not, report as FALSE. There may be multiple opinions on various opinion units within the financial statements so the auditor may report multiple opinion types (Unmodified, Adverse, etc.) as TRUE.",
+        "label": "Auditor Opinion Financials Unmodified",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditorOpinionFinancialsUnmodified",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_AuditorStatementOnOtherUnits": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditor's report includes a statement that the auditee's financial statements include departments, agencies, or other governmental units expending $750,000 or more in Federal awards that have separate Uniform Guidance audits which are not included in this audit, per the AICPA Audit Guide. If it does, report as TRUE; if not, report as FALSE.",
+        "label": "Auditor Report Includes Statement on Other Units",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AuditorStatementOnOtherUnits",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_AwardPassedThroughToSubrecipients": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the award was passed through to subrecipients. If awards were passed through, report as TRUE; if not, report as FALSE.",
+        "label": "Award Passed Through to Subreceipients",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "AwardPassedThroughToSubrecipients",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_CCDFClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the CCDF Cluster.",
+        "label": "CCDF Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "CCDFClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_CDBGDisasterRecoverGrantsPublLNo113-2ClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the CDBG - Disaster Recover Grants - Publ L. No. 113-2  Cluster.",
+        "label": "CDBG - Disaster Recover Grants - Publ L. No. 113-2  Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "CDBGDisasterRecoverGrantsPublLNo113-2ClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_CDBGEntitlementGrantsClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the CDBG - Entitlement Grants Cluster.",
+        "label": "CDBG - Entitlement Grants Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "CDBGEntitlementGrantsClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_CDFIClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the CDFI Cluster.",
+        "label": "CDFI Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "CDFIClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_CFDANumber": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The CFDA number is a two-digit prefix representing the Federal Awarding agendy and a three digit extension separated by a period. The last three digits of the CFDA number represent the program which should be listed in the CFDA catalog. If the program is unknown, enter a \"U\" followed by a two-digit number in the CFDA extension to identify one or more Federal award lines that form the program. For example, the first Federal program with an unknown three-digit extension would be U01 for all award lines associated with that program, the second would be U02, and so on. If the program is part of the Research and Development cluster and the three-digit CFDA extension is unknown, enter \"RD\" as the three-digit extension.",
+        "label": "CFDA Number",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "CFDANumber",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_CentralIntelligenceAgencyMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Central Intelligence Agency (13)",
+        "label": "Central Intelligence Agency (13) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "CentralIntelligenceAgencyMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_ChildNutritionClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Child Nutrition Cluster.",
+        "label": "Child Nutrition Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ChildNutritionClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_CleanWaterStateRevolvingFundClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Clean Water State Revolving Fund Cluster.",
+        "label": "Clean Water State Revolving Fund Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "CleanWaterStateRevolvingFundClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_Cluster477Member": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the 477 Cluster.",
+        "label": "477 Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "Cluster477Member",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_ClusterAxis": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Used to identify the name of the federal awards cluster. If the program is a state cluster, use StateClusterMember and use concept StateClusterName. If the program is not a state cluster, but is part of a cluster not represented on the ClusterAxis, use the element OtherClusterName. If the program has no cluster, do not use the ClusterAxis.",
+        "label": "Cluster [Axis]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ClusterAxis",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_ClusterDomain": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Used to identify the name of the federal awards cluster. If the program is a state cluster, use StateClusterMember and use concept StateClusterName. If the program is not a state cluster, but is part of a cluster not represented on the ClusterAxis, use the element OtherClusterName. If the program has no cluster, do not use the ClusterAxis.",
+        "label": "Cluster [Domain]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ClusterDomain",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_CommissiononCivilRightsMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Commission on Civil Rights (29)",
+        "label": "Commission on Civil Rights (29) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "CommissiononCivilRightsMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_CommodityFuturesTradingCommissionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Commodity Futures Trading Commission (78)",
+        "label": "Commodity Futures Trading Commission (78) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "CommodityFuturesTradingCommissionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_CommunityFacilitiesLoansAndGrantsClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Community Facilities Loans and Grants Cluster.",
+        "label": "Community Facilities Loans and Grants Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "CommunityFacilitiesLoansAndGrantsClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_ComplianceAuditFindingsAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about compliance audit findings.",
+        "label": "Compliance Audit Findings [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceAuditFindingsAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_ComplianceAuditFindingsModifiedOpinion": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditor identified the audit finding on the Report on Compliance for Each Major Federal Program as the basis for a Modified Opinion. If the auditor did, report as TRUE; if the auditor did not, report as FALSE.",
+        "label": "Compliance Audit Modified Opinion",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceAuditFindingsModifiedOpinion",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceAuditFindingsOtherOpinion": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditor identified the audit finding on the Report on Compliance for Each Major Federal Program as the basis for Other Matters. If the auditor did, report as TRUE; if the auditor did not, report as FALSE.",
+        "label": "Compliance Audit Other Matters",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceAuditFindingsOtherOpinion",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementActivitiesAllowedOrUnallowed": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates that the type of compliance requirement being tested, which generated the audit finding, was for \"activities allowed or unallowed\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Activities Allowed or Unallowed",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementActivitiesAllowedOrUnallowed",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementAllowableCostsPrinciples": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates that the type of compliance requirement being tested, which generated the audit finding, was for \"allowable costs and cost principles\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Allowable Costs and Cost Principles",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementAllowableCostsPrinciples",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementCashManagement": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates that the type of compliance requirement being tested, which generated the audit finding, was for \"cash management\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Cash Management",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementCashManagement",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementEligibility": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates that the type of compliance requirement being tested, which generated the audit finding, was for \"eligibility\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Eligibility",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementEligibility",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementEquipmentAndRealPropertyManagement": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates that the type of compliance requirement being tested, which generated the audit finding, was for \"equipment and real property management\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Equipment and Real Property Management",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementEquipmentAndRealPropertyManagement",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementMatchingLevelOfEffortEarmarking": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates that the type of compliance requirement being tested, which generated the audit finding, was for \"matching, level of effort, earmarking\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Matching, Level of Effort, Earmarking",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementMatchingLevelOfEffortEarmarking",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementOther": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates the type of compliance requirement being tested which generated the audit finding was not specified in Part 3 of the Compliance Supplement, and is therefore designated as \"other\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Other",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementOther",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementPeriodOfPerformanceOfFederalFunds": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates that the type of compliance requirement being tested, which generated the audit finding, was for \"period of performance (or availability) of Federal funds\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Period of Performance of Federal Funds",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementPeriodOfPerformanceOfFederalFunds",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementProcurementSuspensionDisbarment": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates that the type of compliance requirement being tested, which generated the audit finding, was for \"procurement and suspension and disbarment\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Procurement, Suspension, Disbarment",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementProcurementSuspensionDisbarment",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementProgramIncome": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates that the type of compliance requirement being tested, which generated the audit finding, was for \"program income\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Program Income",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementProgramIncome",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementReporting": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates that the type of compliance requirement being tested, which generated the audit finding, was for \"reporting\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Reporting",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementReporting",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementReserved": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates that the type of compliance requirement being tested, which generated the audit finding, was for \"reserved\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Reserved",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementReserved",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementSpecialTestsAndProvisions": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates that the type of compliance requirement being tested, which generated the audit finding, was for \"special tests and provisions\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Special Tests and Provisions",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementSpecialTestsAndProvisions",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementSubrecipientMonitoring": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates that the type of compliance requirement being tested, which generated the audit finding, was for \"subrecipient monitoring\". If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Compliance Requirement, Subrecipient Monitoring",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementSubrecipientMonitoring",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ComplianceRequirementTypesAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the type of compliance the auditor was testing which generated the audit finding.",
+        "label": "Compliance Requirement Types [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ComplianceRequirementTypesAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_ConsumerProductSafetyCommissionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Consumer Product Safety Commission (87)",
+        "label": "Consumer Product Safety Commission (87) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ConsumerProductSafetyCommissionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_ContactEmail": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Contact Email.",
+        "label": "Contact Email",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ContactEmail",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_ContactName": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Contact Name.",
+        "label": "Contact Name",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ContactName",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_ContactPhone": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Contact Phone.",
+        "label": "Contact Phone",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ContactPhone",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_ContactTitle": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Contact Title.",
+        "label": "Contact Title",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ContactTitle",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_CorporationForNationalandCommunityServicesMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Corporation for National and Community Services (94)",
+        "label": "Corporation for National and Community Services (94) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "CorporationForNationalandCommunityServicesMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DeltaRegionalAuthorityMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Delta Regional Authority (90)",
+        "label": "Delta Regional Authority (90) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DeltaRegionalAuthorityMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DenaliCommissionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Denali Commission (90)",
+        "label": "Denali Commission (90) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DenaliCommissionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOfAgricultureMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of Agriculture (10)",
+        "label": "Department of Agriculture (10) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOfAgricultureMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOfCommerceMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of Commerce (11)",
+        "label": "Department of Commerce (11) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOfCommerceMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOfDefenseMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of Defense (12)",
+        "label": "Department of Defense (12) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOfDefenseMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOfEducationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of Education (84)",
+        "label": "Department of Education (84) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOfEducationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOfEnergyMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of Energy (81)",
+        "label": "Department of Energy (81) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOfEnergyMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOfHealthAndHumanServicesMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of Health and Human Services (93)",
+        "label": "Department of Health and Human Services (93) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOfHealthAndHumanServicesMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOfHomelandSecurityMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of Homeland Security (97)",
+        "label": "Department of Homeland Security (97) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOfHomelandSecurityMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOfHousingAndUrbanDevelopmentMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of Housing and Urban Development (14)",
+        "label": "Department of Housing and Urban Development (14) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOfHousingAndUrbanDevelopmentMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOfJusticeMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of Justice (16)",
+        "label": "Department of Justice (16) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOfJusticeMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOfLaborMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of Labor (17)",
+        "label": "Department of Labor (17) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOfLaborMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOfStateMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of State (19)",
+        "label": "Department of State (19) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOfStateMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOfTransportationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of Transportation (20)",
+        "label": "Department of Transportation (20) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOfTransportationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOfVeteransAffairsMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of Veterans Affairs (64)",
+        "label": "Department of Veterans Affairs (64) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOfVeteransAffairsMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOftheInteriorMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of the Interior (15)",
+        "label": "Department of the Interior (15) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOftheInteriorMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DepartmentOftheTreasuryMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Department of the Treasury (21)",
+        "label": "Department of the Treasury (21) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DepartmentOftheTreasuryMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_DirectAward": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the award was received directly from a Federal awarding agency. If funds were received directly, report as TRUE; if funds were received as a pass-through, report as FALSE. When an award consists of both direct and indirect funds, use the element AmountExpendedDirect, and AmountExpendedIndirect to represent the amounts. If an award is received directly, but then transferred to another part of the same single audit reporting entity, these awards should still be reported as direct (transfers within the single audit reporting entity do not create a pass-through entity/subrecipient relationship).",
+        "label": "Direct Award",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "DirectAward",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_EconomicDevelopmentClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Economic Development Cluster.",
+        "label": "Economic Development Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "EconomicDevelopmentClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_ElectionAssistanceCommissionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Election Assistance Commission (90)",
+        "label": "Election Assistance Commission (90) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ElectionAssistanceCommissionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_EmploymentServiceClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Employment Service Cluster.",
+        "label": "Employment Service Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "EmploymentServiceClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_EnvironmentalProtectionAgencyMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Environmental Protection Agency (66)",
+        "label": "Environmental Protection Agency (66) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "EnvironmentalProtectionAgencyMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_EqualEmploymentOpportunityCommissionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Equal Employment Opportunity Commission (30)",
+        "label": "Equal Employment Opportunity Commission (30) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "EqualEmploymentOpportunityCommissionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_FederalAgencyPriorAuditFindings": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Federal agencies that have prior audit findings shown in the Summary Schedule of Prior Audit Findings related to direct funding. Report as the appropriate Federal agency prefixes or none.",
+        "label": "Federal Agency with Prior Audit Findings",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalAgencyPriorAuditFindings",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_FederalAwardAuditFindingsAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the Federal Award audit findings.",
+        "label": "Federal Award Audit Findings [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalAwardAuditFindingsAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_FederalAwardSourceAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the source of the Federal Award.",
+        "label": "Federal Award Source [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalAwardSourceAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_FederalAwardingAgencyAxis": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Identifies the name of the Federal Awarding Agency and the two-digit prefix which designates that Agency which is also used as the first two-digits of the CFDA number.",
+        "label": "Federal Awarding Agency [Axis]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalAwardingAgencyAxis",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_FederalAwardingAgencyDomain": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Identifies the name of the Federal Awarding Agency and the two-digit prefix which designates that Agency which is also used as the first two-digits of the CFDA number.",
+        "label": "Federal Awarding Agency [Domain]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalAwardingAgencyDomain",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_FederalCommunicationsCommissionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Federal Communications Commission (32)",
+        "label": "Federal Communications Commission (32) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalCommunicationsCommissionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_FederalLoanOrLoanGuarantee": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates whether the program is a Federal loan or a Federal loan guarantee. If it is, report as TRUE; if it is not, report as FALSE.",
+        "label": "Federal Loan or Loan Guarantee",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalLoanOrLoanGuarantee",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_FederalMaritimeCommissionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Federal Maritime Commission (33)",
+        "label": "Federal Maritime Commission (33) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalMaritimeCommissionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_FederalMediationAndConciliationServiceMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Federal Mediation and Conciliation Service (34)",
+        "label": "Federal Mediation and Conciliation Service (34) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalMediationAndConciliationServiceMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_FederalProgramName": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Name of the Federal program as shown in the CFDA. If not listed, this is a description of the award recognizable by the Federal awarding agency or pass-through entity.",
+        "label": "Federal Program Name",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalProgramName",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_FederalProgramNameAxis": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Used to identify the name of the federal program as shown in the CFDA. If not listed, this is a description of the award recognizable by the Federal awarding agency or pass-through entity.",
+        "label": "Federal Program Name [Axis]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalProgramNameAxis",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_FederalProgramTotalAwardsExpended": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Total Federal Awards expended.",
+        "label": "Federal Program Total Awards Expended",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalProgramTotalAwardsExpended",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "sap_FederalProgramsAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the Federal Programs in the Schedule of Findings and Questioned Costs.",
+        "label": "Federal Programs [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalProgramsAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_FederalReserveSystemMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Federal Reserve System (18)",
+        "label": "Federal Reserve System (18) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalReserveSystemMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_FederalTradeCommissionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Federal Trade Commission (36)",
+        "label": "Federal Trade Commission (36) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalTradeCommissionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_FederalTransitClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Federal Transit Cluster.",
+        "label": "Federal Transit Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FederalTransitClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_FinancialStatementsAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the Financial Statements.",
+        "label": "Financial Statements [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FinancialStatementsAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_FiscalPeriodAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the fiscal period of the audit.",
+        "label": "Fiscal Period [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FiscalPeriodAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_FiscalPeriodEndDate": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Last date of the fiscal period covered by the audit.",
+        "label": "Fiscal Period End Date",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FiscalPeriodEndDate",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "dateItemType"
+    },
+    "sap_FiscalPeriodStartDate": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "First date of the fiscal period covered by the audit.",
+        "label": "Fiscal Period Start Date",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FiscalPeriodStartDate",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "dateItemType"
+    },
+    "sap_FishandWildlifeClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Fish and Wildlife Cluster.",
+        "label": "Fish and Wildlife Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FishandWildlifeClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_FoodDistributionClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Food Distribution Cluster.",
+        "label": "Food Distribution Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FoodDistributionClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_ForeignFoodandDonationClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Foreign Food and Donation Cluster.",
+        "label": "Foreign Food and Donation Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ForeignFoodandDonationClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_ForestServiceSchoolsandRoadsClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Forest Service Schools and Roads Cluster.",
+        "label": "Forest Service Schools and Roads Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ForestServiceSchoolsandRoadsClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_FosterGrandparentSeniorCompanionClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Foster Grandparent/Senior Companion Cluster.",
+        "label": "Foster Grandparent/Senior Companion Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "FosterGrandparentSeniorCompanionClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_GeneralInformationAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "General information about the auditee and auditor.",
+        "label": "General Information [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "GeneralInformationAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "xbrltype": "stringItemType"
+    },
+    "sap_GeneralServicesAdministrationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "General Services Administration (39)",
+        "label": "General Services Administration (39) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "GeneralServicesAdministrationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_GoingConcernParagraph": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if a \"going concern\" emphasis-of-matter paragraph is included in the auditor's report.",
+        "label": "Going Concern Paragraph in Auditor Report",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "GoingConcernParagraph",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_GovernmentPrintingOfficeMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Government Printing Office (40)",
+        "label": "Government Printing Office (40) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "GovernmentPrintingOfficeMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_HealthCenterProgramClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Health Center Program Cluster.",
+        "label": "Health Center Program Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "HealthCenterProgramClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_HighwayPlanningAndConstructionClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Highway Planning and Construction Cluster.",
+        "label": "Highway Planning and Construction Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "HighwayPlanningAndConstructionClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_HighwaySafetyClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Highway Safety Cluster.",
+        "label": "Highway Safety Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "HighwaySafetyClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_HopeVIClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Hope VI Cluster.",
+        "label": "Hope VI Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "HopeVIClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_HousingVoucherClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Housing Voucher Cluster.",
+        "label": "Housing Voucher Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "HousingVoucherClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_HurricaneSandyReliefClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Hurricane Sandy Relief Cluster.",
+        "label": "Hurricane Sandy Relief Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "HurricaneSandyReliefClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_InterAmericanFoundationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Inter-American Foundation (04)",
+        "label": "Inter-American Foundation (04) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "InterAmericanFoundationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_InternalControlAuditFindingsAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about internal control audit findings.",
+        "label": "Internal Control Audit Findings [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "InternalControlAuditFindingsAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_InternalControlAuditFindingsMaterialWeakness": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditor identified the audit finding in the Report on Internal Control over Compliance as a Material Weakness. If the auditor did, report as TRUE; if not, report as FALSE.",
+        "label": "Internal Control Audit Material Weakness",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "InternalControlAuditFindingsMaterialWeakness",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_InternalControlAuditFindingsOther": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditor identified the audit finding as not classified under the Report on Compliance or the Report on Internal Controls. If the auditor did, report as TRUE; if not, report as FALSE.",
+        "label": "Internal Control Audit Other Audit Findings",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "InternalControlAuditFindingsOther",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_InternalControlAuditFindingsSignificantDeficiency": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditor identified the audit finding in the Report on Internal Control over Compliance as a Significant Deficiency. If the auditor did, report as TRUE; if not, report as FALSE.",
+        "label": "Internal Control Audit Significant Deficiency",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "InternalControlAuditFindingsSignificantDeficiency",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_InternalControlMaterialWeakness": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if a material weakness in internal controls was disclosed. If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Internal Control Material Weakness Disclosed",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "InternalControlMaterialWeakness",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_InternalControlSignificantDeficiency": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if a significant deficiency in internal controls was disclosed. If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Internal Control Significant Deficiency Disclosed",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "InternalControlSignificantDeficiency",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_InternationalTradeCommissionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "International Trade Commission (61)",
+        "label": "International Trade Commission (61) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "InternationalTradeCommissionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_JapanUSFriendshipCommissionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Japan - U.S. Friendship Commission (90)",
+        "label": "Japan - U.S. Friendship Commission (90) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "JapanUSFriendshipCommissionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_LegalServicesCorporationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Legal Services Corporation (09)",
+        "label": "Legal Services Corporation (09) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "LegalServicesCorporationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_LibraryOfCongressMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Library of Congress (42)",
+        "label": "Library of Congress (42) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "LibraryOfCongressMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_LoanProgramAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about Federal Awards that are part of a Loan Program.",
+        "label": "Loan Program [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "LoanProgramAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_LowRiskAuditee": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditee qualified as a low risk auditee at the beginning of the audit period, per 2 CFR 200.520. If the auditee qualified, report as TRUE; if not, report as FALSE.",
+        "label": "Qualify as Low Risk Auditee",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "LowRiskAuditee",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_MajorProgram": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the Federal program is a major program as defined in 2 CFR 200.518. If it is a major program, report as TRUE; if not, report as FALSE.",
+        "label": "Major Program",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "MajorProgram",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_MajorProgramandAuditFindingsAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about major programs and audit findings.",
+        "label": "Major Program and Audit Findings [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "MajorProgramandAuditFindingsAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_MaterialInfantAndEarlyChildhoodHomeVisitingClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Material, Infant, and Early Childhood Home Visiting Cluster.",
+        "label": "Material, Infant, and Early Childhood Home Visiting Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "MaterialInfantAndEarlyChildhoodHomeVisitingClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_MaterialNoncompliance": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if material noncompliance was disclosed. If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Material Noncompliance Disclosed",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "MaterialNoncompliance",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_MedicaidClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Medicaid Cluster.",
+        "label": "Medicaid Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "MedicaidClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_MiscellaneousMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Miscellaneous (99)",
+        "label": "Miscellaneous (99) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "MiscellaneousMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_MultipleDUNSNumbers": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditee (or components of an auditee covered by the audit) was assigned more than one DUNS number. If there is more than one DUNS, report as TRUE; if not, report as FALSE.",
+        "label": "Multiple DUNS Numbers",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "MultipleDUNSNumbers",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_MultipleEntityTaxIdentification": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditee (or components of an auditee covered by the audit) was assigned more than one EIN by the IRS. For example, a statewide audit covers many departments, each of which may have its own EIN). If there is more than one EIN, report as TRUE; if not, report as FALSE.",
+        "label": "Multiple Entity Tax Identifications",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "MultipleEntityTaxIdentification",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_NationalAeronauticsAndSpaceAdministrationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "National Aeronautics &amp; Space Administration (43)",
+        "label": "National Aeronautics &amp; Space Administration (43) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "NationalAeronauticsAndSpaceAdministrationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_NationalArchivesAndRecordsAdministrationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "National Archives &amp; Records Administration (89)",
+        "label": "National Archives &amp; Records Administration (89) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "NationalArchivesAndRecordsAdministrationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_NationalCouncilOnDisabilityMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "National Council on Disability (92)",
+        "label": "National Council on Disability (92) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "NationalCouncilOnDisabilityMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_NationalCreditUnionAdministrationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "National Credit Union Administration (44)",
+        "label": "National Credit Union Administration (44) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "NationalCreditUnionAdministrationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_NationalFoundationOnTheArtsandtheHumanitiesMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "National Foundation on the Arts and the Humanities (45)",
+        "label": "National Foundation on the Arts and the Humanities (45) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "NationalFoundationOnTheArtsandtheHumanitiesMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_NationalGalleryOfArtMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "National Gallery of Art (68)",
+        "label": "National Gallery of Art (68) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "NationalGalleryOfArtMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_NationalLaborRelationsBoardMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "National Labor Relations Board (46)",
+        "label": "National Labor Relations Board (46) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "NationalLaborRelationsBoardMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_NationalScienceFoundationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "National Science Foundation (47)",
+        "label": "National Science Foundation (47) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "NationalScienceFoundationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_NotesToTheSEFA": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Description of the significant accounting policies used in preparing the SEFA (2 CFR 200.510(b)(6)).",
+        "label": "Notes to the Schedule of Expenditures of Federal Awards",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "NotesToTheSEFA",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "deMinimusCostRateItemType"
+    },
+    "sap_NotesToTheSEFAAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about notes to the Schedule of Expenditures of Federal Awards (SEFA).",
+        "label": "Notes to the Schedule of Expenditures of Federal Awards [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "NotesToTheSEFAAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_NuclearRegulatoryCommissionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Nuclear Regulatory Commission (77)",
+        "label": "Nuclear Regulatory Commission (77) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "NuclearRegulatoryCommissionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_NumberofAuditFindings": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Number of audit findings for the Federal program. If there are no audit findings, enter \"0\" (zero).",
+        "label": "Number of Audit Findings",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "NumberofAuditFindings",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "integerItemType"
+    },
+    "sap_OfficeOfPersonnelManagementMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Office of Personnel Management (27)",
+        "label": "Office of Personnel Management (27) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "OfficeOfPersonnelManagementMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_OfficeofNationalDrugControlPolicyMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Office of National Drug Control Policy (07)",
+        "label": "Office of National Drug Control Policy (07) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "OfficeofNationalDrugControlPolicyMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_OpinionSpecialPurposeFrameworkAdverse": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditor's opinion of the Special Purpose Framework was adverse.",
+        "label": "Auditor Opinion Special Purpose Framework Adverse",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "OpinionSpecialPurposeFrameworkAdverse",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_OpinionSpecialPurposeFrameworkDisclaimer": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditor's opinion of the Special Purpose Framework was disclaimer of opinion.",
+        "label": "Auditor Opinion Special Purpose Framework Disclaimer",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "OpinionSpecialPurposeFrameworkDisclaimer",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_OpinionSpecialPurposeFrameworkQualified": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditor's opinion of the Special Purpose Framework was qualified.",
+        "label": "Auditor Opinion Special Purpose Framework Qualified",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "OpinionSpecialPurposeFrameworkQualified",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_OpinionSpecialPurposeFrameworkUnmodified": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditor's opinion of the Special Purpose Framework was unmodified.",
+        "label": "Auditor Opinion Special Purpose Framework Unmodified",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "OpinionSpecialPurposeFrameworkUnmodified",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_OrganizationName": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Organization name for the auditor or auditee. Use the AuditorAxis when reporting information about the auditor. Use no axis when reporting information about the auditee.",
+        "label": "Organization Name",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "OrganizationName",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_OtherClusterName": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Name of the cluster, if the cluster is not on the ClusterAxis.",
+        "label": "Other Cluster Name",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "OtherClusterName",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_OtherIssuesWritten": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the auditors communicated in a written document (such as a management letter) any issues that were not audit findings but warranted attention of those charged with governance in accordance with GAS 4.26 or merited the attention of management in accordance with AU-C 265.12(b). If it was, report as TRUE; if not, report as FALSE.",
+        "label": "Other Issues Written by Auditors",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "OtherIssuesWritten",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_OutstandingLoanBalance": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The amount of the loan or loan guarantee balance outstanding at the end of the audit period for loan programs as identified in Part I, Item 1(i), as required by 2 CFR 200.510(b)(5).",
+        "label": "Outstanding Loan Balance, End of Audit Period",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "OutstandingLoanBalance",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "sap_OverseasPrivateInvestmentCorporationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Overseas Private Investment Corporation (70)",
+        "label": "Overseas Private Investment Corporation (70) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "OverseasPrivateInvestmentCorporationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_PassThroughSourceEntityIdentifier": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Identifying number assigned by the pass-through entity, for award lines identified as not being direct. The identifying number is required by 2 CFR 200.510(b)(2). If there is not an identifying number assigned by the pass-through entity, report this element as \"N/A\".",
+        "label": "Pass-through Source Entity Identifier",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "PassThroughSourceEntityIdentifier",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_PassThroughSourceEntityName": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Name of the pass-through entity for award amounts identified as not being direct, as required 2 CFR 200.510(b)(2).",
+        "label": "Pass-through Source Entity Name",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "PassThroughSourceEntityName",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_PassThroughSourceIdentifierAxis": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Used for the identifier of the pass-through entity if the award was not received directly from the Federal agency (received as a subrecipient). Include the name of the pass-through entity and the identifying number assigned by the pass-through entity (per 2 CFR 200.510(b)(2)).",
+        "label": "Pass Through Source Identifier [Axis]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "PassThroughSourceIdentifierAxis",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_PassThroughSubrecipientAxis": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Used for the identifier of a subrecipient of the award, if the award was passed through to any subrecipients as required in 2 CFR 200.510(b)(4).",
+        "label": "Pass Through Subrecipient Identifier [Axis]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "PassThroughSubrecipientAxis",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_PassedThroughAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about whether awards were passed through to subrecipients.",
+        "label": "Passed Through [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "PassedThroughAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_PeaceCorpsMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Peace Corps (08)",
+        "label": "Peace Corps (08) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "PeaceCorpsMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_PensionBenefitGuarantyCorporationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Pension Benefit Guaranty Corporation (86)",
+        "label": "Pension Benefit Guaranty Corporation (86) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "PensionBenefitGuarantyCorporationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_QuestionedCosts": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if there were any questioned costs related to the audit finding, even if the amount cannot be determined. If there were, report as TRUE; if not, report as FALSE.",
+        "label": "Questioned Costs",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "QuestionedCosts",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_RailroadRetirementBoardMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Railroad Retirement Board (57)",
+        "label": "Railroad Retirement Board (57) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "RailroadRetirementBoardMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_RepeatFindingAuditReferenceNumber": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Prior year audit reference number(s) from the immediate prior audit (2 CFR 200.516(b)(8) for repeat findings identified.",
+        "label": "Repeat Finding Audit Reference Number",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "RepeatFindingAuditReferenceNumber",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_RepeatFindingFromPriorYear": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates whether the audit finding is a repeat of an audit finding from the immediate prior year. If it is, report as TRUE; if not, report as FALSE.",
+        "label": "Repeat Finding From Prior Year",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "RepeatFindingFromPriorYear",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_ResearchAndDevelopmentClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Research and Development Cluster.",
+        "label": "Research and Development Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ResearchAndDevelopmentClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_ScheduleOfExpendituresOfFederalAwardsAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the Schedule of Expenditures of Federal Awards in the Single Audit package.",
+        "label": "Schedule of Expenditures of Federal Awards [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ScheduleOfExpendituresOfFederalAwardsAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "xbrltype": "stringItemType"
+    },
+    "sap_ScheduleOfExpendituresOfFederalAwardsLineItems": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Used to collect information on the Schedule of Expenditures of Federal Awards.",
+        "label": "Schedule of Expenditures of Federal Awards [Line Items]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ScheduleOfExpendituresOfFederalAwardsLineItems",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_ScheduleOfExpendituresOfFederalAwardsTable": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Table used to capture information about the Schedule of Expenditures of Federal Awards in the Single Audit package.",
+        "label": "Schedule of Expenditures of Federal Awards [Table]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ScheduleOfExpendituresOfFederalAwardsTable",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_ScheduleOfFindingsAndQuestionedCostsTable": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Table used to represent the Schedule of Findings and Questioned Costs.",
+        "label": "Schedule of Findings and Questioned Costs [Table]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ScheduleOfFindingsAndQuestionedCostsTable",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_ScheduleofFindingsandQuestionedCostsAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the Schedule of Findings and Questioned Costs.",
+        "label": "Schedule of Findings and Questioned Costs [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ScheduleofFindingsandQuestionedCostsAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "xbrltype": "stringItemType"
+    },
+    "sap_ScheduleofFindingsandQuestionedCostsLineItems": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Used to represent information from the Schedule of Findings and Questioned Costs.",
+        "label": "Schedule of Findings and Questioned Costs [Line Items]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ScheduleofFindingsandQuestionedCostsLineItems",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_ScholarshipFoundationsMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Scholarship Foundations (85)",
+        "label": "Scholarship Foundations (85) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ScholarshipFoundationsMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_SchoolImprovementGrantsClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the School Improvement Grants Cluster.",
+        "label": "School Improvement Grants Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "SchoolImprovementGrantsClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_SecondaryAuditorUsed": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates whether multiple auditors contributed to the audit. If there is, report value of TRUE; if there is not, FALSE.",
+        "label": "Secondary Auditor Used",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "SecondaryAuditorUsed",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_Section8ProjectBasedClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Section 8 Project-Based Cluster.",
+        "label": "Section 8 Project-Based Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "Section8ProjectBasedClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_SecuritiesandExchangeCommissionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Securities and Exchange Commission (58)",
+        "label": "Securities and Exchange Commission (58) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "SecuritiesandExchangeCommissionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_SmallBusinessAdministrationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Small Business Administration (59)",
+        "label": "Small Business Administration (59) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "SmallBusinessAdministrationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_SmithsonianInstitutionMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Smithsonian Institution (60)",
+        "label": "Smithsonian Institution (60) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "SmithsonianInstitutionMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_SnapClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Snap Cluster.",
+        "label": "Snap Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "SnapClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_SocialSecurityAdministrationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Social Security Administration (96)",
+        "label": "Social Security Administration (96) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "SocialSecurityAdministrationMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_SpecialEducationClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Special Education  Cluster.",
+        "label": "Special Education  Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "SpecialEducationClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_SpecialPurposeFramework": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates the type of Special Purpose Framework which may be Cash basis, Tax basis, Regulatory basis, Contractual basis, or Other basis.",
+        "label": "Special Purpose Framework Type",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "SpecialPurposeFramework",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "specialPurposeFrameworkItemType"
+    },
+    "sap_SpecialPurposeFrameworkAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the financial statements that were prepared in accordance with a special purpose framework.",
+        "label": "Special Purpose Framework [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "SpecialPurposeFrameworkAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_SpecialPurposeFrameworkRequired": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates if the Special Purpose Framework used as a basis of accounting required by state law. Report as TRUE if required, report as FALSE if it was permitted by state law but not required. This will affect whether the entity can qualify as a low-risk auditee in the two subsequent audit periods (2 CFR 200.520(b)).",
+        "label": "Special Purpose Framework Required by Law",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "SpecialPurposeFrameworkRequired",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "booleanItemType"
+    },
+    "sap_StateClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the State Cluster.",
+        "label": "State Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "StateClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_StateClusterName": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Name of the State Cluster. Used if State Cluster was selected on the ClusterAxis.",
+        "label": "State Cluster Name",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "StateClusterName",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_StudentFinancialAssistanceClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Student Financial Assistance Cluster.",
+        "label": "Student Financial Assistance Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "StudentFinancialAssistanceClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_TANFClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the TANF Cluster.",
+        "label": "TANF Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "TANFClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_TennesseeValleyAuthorityMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Tennessee Valley Authority (62)",
+        "label": "Tennessee Valley Authority (62) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "TennesseeValleyAuthorityMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_ThresholdForPrograms": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Amount of the threshold to distinguish Type A and Type B programs, per 2 CFR 200.518(B)(1).",
+        "label": "Threshold for Type A and B Programs",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "ThresholdForPrograms",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "sap_TransitServicesProgramsClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Transit Services Programs Cluster.",
+        "label": "Transit Services Programs Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "TransitServicesProgramsClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_TrioClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Trio Cluster.",
+        "label": "Trio Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "TrioClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_TypeOfAuditAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the type of Uniform Guidance Audit.",
+        "label": "Type of Audit [Abstract]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "TypeOfAuditAbstract",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "sap_TypeofAuditReport": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Indicates the type of Audit Report for a Major Program. Can be reported as Unmodified opinion (U), Qualified opinion (Q), Adverse opinion (A), or Disclaimer of opinion (D). For clusters of programs, the type of audit report must apply to the cluster as a whole, and should be reported for all programs in a cluster. If the program is not a Major Program, do not use this element.",
+        "label": "Type of Audit Report",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "TypeofAuditReport",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "auditReportItemType"
+    },
+    "sap_USAgencyForInternationalDevelopmentMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "U.S. Agency for International Development (98)",
+        "label": "U.S. Agency for International Development (98) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "USAgencyForInternationalDevelopmentMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_UniformGuidanceAuditType": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "2 CFR 200.501 of the Uniform Guidance requires non-Federal entities that expend $750,000 or more in a year in Federal awards to have a single audit conducted, except when they elect to have a program-specific audit conducted in accordance with 2 CFR 200.507.",
+        "label": "Uniform Audit Guidance Type",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "UniformGuidanceAuditType",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation"
+     ],
+     "xbrltype": "uniformAuditGuidanceItemType"
+    },
+    "sap_UnitedStatesInstituteOfPeaceMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "United States Institute of Peace (91)",
+        "label": "United States Institute of Peace (91) [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "UnitedStatesInstituteOfPeaceMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_WIOAClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the WIOA Cluster.",
+        "label": "WIOA Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "WIOAClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "sap_WaterandWasteProgramClusterMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Represents the Water and Waste Program  Cluster.",
+        "label": "Water and Waste Program  Cluster [Member]",
+        "terseLabel": "0"
+       }
+      }
+     },
+     "localname": "WaterandWasteProgramClusterMember",
+     "nsuri": "http://xbrl.us/sap/v0.1/2020-01-01/sap",
+     "presentation": [
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
+      "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts"
+     ],
+     "xbrltype": "domainItemType"
+    }
+   },
+   "unitCount": 1
+  }
+ },
+ "std_ref": {},
+ "version": "2.1"
+}
